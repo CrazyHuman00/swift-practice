@@ -13,11 +13,11 @@ struct MapView: View {
         Map(initialPosition: .region(region))
     }
     
-    private var region: MKCoordinateRegion{
+    private var region: MKCoordinateRegion {
         MKCoordinateRegion(
             center: CLLocationCoordinate2D(
-                latitude: 35.013008324319145,
-                longitude: 135.78639789887762
+                latitude: 35.01286134224122,
+                longitude: 135.78661329404318
             ),
             span: MKCoordinateSpan(
                 latitudeDelta: 0.2,
