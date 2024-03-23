@@ -14,6 +14,8 @@
 		6722B0B02BADAF7E001E16D0 /* swift_practiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6722B0AF2BADAF7E001E16D0 /* swift_practiceTests.swift */; };
 		6722B0BA2BADAF7E001E16D0 /* swift_practiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6722B0B92BADAF7E001E16D0 /* swift_practiceUITests.swift */; };
 		6722B0BC2BADAF7E001E16D0 /* swift_practiceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6722B0BB2BADAF7E001E16D0 /* swift_practiceUITestsLaunchTests.swift */; };
+		6722B0C92BAF18BB001E16D0 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6722B0C82BAF18BB001E16D0 /* CircleImage.swift */; };
+		6722B0D12BAF23F5001E16D0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6722B0D02BAF23F5001E16D0 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		6722B0B52BADAF7E001E16D0 /* swift-practiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-practiceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6722B0B92BADAF7E001E16D0 /* swift_practiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_practiceUITests.swift; sourceTree = "<group>"; };
 		6722B0BB2BADAF7E001E16D0 /* swift_practiceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_practiceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6722B0C82BAF18BB001E16D0 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		6722B0D02BAF23F5001E16D0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = ../MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +98,9 @@
 		6722B09D2BADAF7D001E16D0 /* swift-practice */ = {
 			isa = PBXGroup;
 			children = (
+				6722B0D02BAF23F5001E16D0 /* MapView.swift */,
 				6722B09E2BADAF7D001E16D0 /* swift_practiceApp.swift */,
+				6722B0C82BAF18BB001E16D0 /* CircleImage.swift */,
 				6722B0A02BADAF7D001E16D0 /* ContentView.swift */,
 				6722B0A22BADAF7E001E16D0 /* Assets.xcassets */,
 				6722B0A42BADAF7E001E16D0 /* Preview Content */,
@@ -215,6 +221,9 @@
 				Base,
 			);
 			mainGroup = 6722B0922BADAF7D001E16D0;
+			packageReferences = (
+				6722B0CB2BAF1CB3001E16D0 /* XCRemoteSwiftPackageReference "TOCropViewController" */,
+			);
 			productRefGroup = 6722B09C2BADAF7D001E16D0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,7 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6722B0A12BADAF7D001E16D0 /* ContentView.swift in Sources */,
+				6722B0D12BAF23F5001E16D0 /* MapView.swift in Sources */,
 				6722B09F2BADAF7D001E16D0 /* swift_practiceApp.swift in Sources */,
+				6722B0C92BAF18BB001E16D0 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +593,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6722B0CB2BAF1CB3001E16D0 /* XCRemoteSwiftPackageReference "TOCropViewController" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/TimOliver/TOCropViewController.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 6722B0932BADAF7D001E16D0 /* Project object */;
 }
